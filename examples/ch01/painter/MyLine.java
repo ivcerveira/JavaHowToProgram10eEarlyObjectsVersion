@@ -1,4 +1,4 @@
-// GCS Exercise 10.2 Solution: MyLine.java
+package ch01.painter;// GCS Exercise 10.2 Solution: MyLine.java
 // Declaration of class MyLine.
 import java.awt.Color;
 import java.awt.Graphics;

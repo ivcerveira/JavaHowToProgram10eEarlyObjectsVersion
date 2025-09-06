@@ -1,4 +1,4 @@
-// GCS Exercise 10.2 Solution: MyRect.java
+package ch01.painter;// GCS Exercise 10.2 Solution: MyRect.java
 // Declaration of class MyRect.
 import java.awt.Color;
 import java.awt.Graphics;

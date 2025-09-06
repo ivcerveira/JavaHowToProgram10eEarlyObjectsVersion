@@ -1,4 +1,4 @@
-// GCS Exercise 10.2 Solution: MyOval.java
+package ch01.painter;// GCS Exercise 10.2 Solution: MyOval.java
 // Declaration of class MyOval.
 import java.awt.Color;
 import java.awt.Graphics;

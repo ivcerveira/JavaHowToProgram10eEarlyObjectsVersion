@@ -1,4 +1,4 @@
-// GCS Exercise 14.17 Solution: DrawFrame.java
+package ch01.painter;// GCS Exercise 14.17 Solution: DrawFrame.java
 // Program that creates a panel for the user to draw shapes.
 // Allows the user to choose the shape and color.
 import java.awt.BorderLayout;

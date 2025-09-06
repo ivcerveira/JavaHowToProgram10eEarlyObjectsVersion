@@ -1,4 +1,4 @@
-// GCS Exercise 10.2 Solution: MyShape.java
+package ch01.painter;// GCS Exercise 10.2 Solution: MyShape.java
 // Declaration of class MyShape.
 import java.awt.Color;
 import java.awt.Graphics;

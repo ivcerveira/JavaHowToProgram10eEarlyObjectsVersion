@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 public class DrawPanel extends JPanel
 {
-   private MyShape[] shapes; // array containing all the shapes
+   private final MyShape[] shapes; // array containing all the shapes
    private int shapeCount; // total number of shapes
 
    private int shapeType; // the type of shape to draw
@@ -19,7 +19,7 @@ public class DrawPanel extends JPanel
    private Color currentColor; // the color of the shape
    private boolean filledShape; // whether this shape is filled
    
-   private JLabel statusLabel; // label displaying mouse coordinates
+   private final JLabel statusLabel; // label displaying mouse coordinates
    
    // constructor
    public DrawPanel(JLabel status)
@@ -163,19 +163,3 @@ public class DrawPanel extends JPanel
       } // end method mouseMoved
    } // end class MouseHandler
 } // end class DrawPanel
-
-
-/**************************************************************************
- * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- **************************************************************************/
